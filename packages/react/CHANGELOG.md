@@ -1,5 +1,11 @@
 # @emotion/react
 
+## 11.7.1
+
+### Patch Changes
+
+- [#2577](https://github.com/emotion-js/emotion/pull/2577) [`04681a5f`](https://github.com/emotion-js/emotion/commit/04681a5f520b3e3909e567fda200622494dd333b) Thanks [@Methuselah96](https://github.com/Methuselah96)! - Export `Keyframes` type to avoid TypeScript inserting `import("@emotion/serialize").Keyframes` references into declaration files emitted based on a source files exporting `keyframes` result. This avoids issues with strict package managers that don't allow accessing undeclared dependencies.
+
 ## 11.7.0
 
 ### Patch Changes
